@@ -1,0 +1,23 @@
+# EditorConfig helps maintain consistent coding styles
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Markdownは行末スペースを消さない（改行表現のため）
+[*.md]
+trim_trailing_whitespace = false
+
+# JSON / YAML もスペース2
+[*.{json,yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Makefileはタブが必要
+[Makefile]
+indent_style = tab
