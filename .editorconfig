@@ -13,11 +13,6 @@ indent_size = 2
 [*.md]
 trim_trailing_whitespace = false
 
-# JSON / YAML もスペース2
-[*.{json,yml,yaml}]
-indent_style = space
-indent_size = 2
-
 # Makefileはタブが必要
 [Makefile]
 indent_style = tab
