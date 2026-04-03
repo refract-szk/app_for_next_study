@@ -1,6 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
-import Button from "@mui/material/Button";
+import styles from "@/app/page.module.css";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
           height={20}
           priority
         />
-        <Button variant="contained">テスト</Button>
         <div className={styles.intro}>
           <h1>To get started, edit the page.tsx file.</h1>
           <p>
